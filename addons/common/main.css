@@ -1,0 +1,301 @@
+::selection{ background-color: #E13300; color: white; }
+::moz-selection{ background-color: #E13300; color: white; }
+::webkit-selection{ background-color: #E13300; color: white; }
+
+html{
+	overflow-y: scroll;
+}
+
+body {
+	margin:10px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:10px;
+	padding:0px;
+}
+input{
+	padding:2px;
+	font-family:Verdana, Geneva, sans-serif;
+}
+textarea{
+	font-family:Verdana, Geneva, sans-serif;
+}
+select{
+	padding:2px;
+}
+a {
+	color:#d11141;
+	background-color: transparent;
+	text-decoration:none;
+}
+a:hover{
+	color: #333333;
+}
+
+p.footer{
+	text-align: right;
+	font-size: 11px;
+	line-height: 32px;
+	padding: 0 10px 0 10px;
+	margin: 20px 0 0 0;
+}
+#container{
+	min-width:800px;
+	margin: 5px;
+	padding:5px;
+	border: 1px solid #f3f3f3;
+	background-color:#f3f3f3;
+	-webkit-box-shadow: 0 0 8px #D0D0D0;
+}
+#header{
+	padding:10px;
+}
+.miniMenu{
+	float:right;
+	margin:20px 15px 0;
+	font-size:150%;
+}
+.breadcrumb{
+	margin:15px 15px 0;
+	font-size:150%;
+}
+#body{
+	padding:10px;
+}
+
+h1 {
+	color: #333333;
+	font-size: 21px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 15px 15px 5px 15px;
+}
+h2 {
+	color: #000000;
+	font-size: 16px;
+	font-weight: normal;
+	margin:0;
+	padding:0;
+}
+h3 {
+	color: #000000;
+	font-size: 14px;
+	margin:0;
+	padding:5px 0;
+	font-weight: normal;
+}
+h4 {
+	color: #333;
+	font-size: 12px;
+	font-weight: normal;
+	text-align:center;
+	margin:0;
+	padding:0;
+}
+.salesForm input{
+	text-align:right;
+	font-size:10px;
+}
+.lftHeadCol{
+	font-weight:bold;
+	background-color:#FFF;
+	text-align:left;
+}
+.lftHeadTTLCol{
+	font-weight:bold;
+	background-color:#f6f6f6;
+	border-top:1px solid #e3e3e3;
+	text-align:left;
+}
+.centHeadCol{
+	font-weight:bold;
+	background-color:#FFF;
+	text-align:center;
+}
+.rgtHeadCol{
+	font-weight:bold;
+	background-color:#FFF;
+	text-align:right;
+}
+.servCol{
+	background-color:#f6f9ff;
+}
+.custCol{
+	background-color:#fffff6;
+}
+.diffCol{
+	background-color:#f7fff8;
+}
+.lftFormCol{
+	background-color:#FFF;
+	text-align:left;
+}
+.lftFormCol_odd{
+	background-color:#f9f9f9;
+	text-align:left;
+}
+.centFormCol{
+	background-color:#FFF;
+	text-align:center;
+}
+.centFormCol_odd{
+	background-color:#f9f9f9;
+	text-align:center;
+}
+.lftFormTTLCol{
+	background-color:#f6f6f6;
+	border-top:1px solid #e3e3e3;
+	text-align:left;
+}
+.centFormTTLCol{
+	background-color:#f6f6f6;
+	border-top:1px solid #e3e3e3;
+	text-align:center;
+}
+.rgtFormTTLCol{
+	background-color:#f6f6f6;
+	border-top:1px solid #e3e3e3;
+	text-align:right;
+}
+.centFormCol_odd{
+	background-color:#f9f9f9;
+	text-align:center;
+}
+.rgtFormCol{
+	background-color:#FFF;
+	text-align:right;
+}
+.rgtFormCol_odd{
+	background-color:#f9f9f9;
+	text-align:right;
+}
+.lftGridCol_hd{
+	font-weight:bold;
+	border-bottom:1px solid #666666;
+	border-right:1px solid #666666;
+	text-align:left;
+}
+.rgtGridCol_hd{
+	font-weight:bold;
+	border-bottom:1px solid #666666;
+	border-right:1px solid #666666;
+	text-align:right;
+}
+.lftGridColLast_hd{
+	font-weight:bold;
+	border-bottom:1px solid #666666;
+	text-align:left;
+}
+.rgtGridColLast_hd{
+	font-weight:bold;
+	border-bottom:1px solid #666666;
+	text-align:right;
+}
+.centGridCol_hd{
+	font-weight:bold;
+	border-bottom:1px solid #666666;
+	border-right:1px solid #666666;
+	text-align:center;
+}
+.centGridColLast_hd{
+	font-weight:bold;
+	border-bottom:1px solid #666666;
+	text-align:center;
+}
+
+.lftGridCol{
+	border-bottom:1px dotted #666666;
+	border-right:1px dotted #666666;
+	text-align:left;
+}
+.lftGridColLast{
+	border-bottom:1px dotted #666666;
+	text-align:left;
+}
+.centGridCol{
+	border-bottom:1px dotted #666666;
+	border-right:1px dotted #666666;
+	text-align:center;
+}
+.rgtGridCol{
+	border-bottom:1px dotted #666666;
+	border-right:1px dotted #666666;
+	text-align:right;
+}
+.rgtGridColLast{
+	border-bottom:1px dotted #666666;
+	text-align:right;
+}
+
+.stateSelect{
+	width:175px;
+}
+.note{
+	font-size:12px;
+	float:left;
+	padding:10px 5px 20px 5px;
+}
+.buttons{
+	float:right;
+	padding:20px 5px 20px 5px;
+	text-align:right;
+}
+.buttonsLft{
+	padding:10px 5px 10px 5px;
+}
+.addButton{
+	cursor:pointer;
+	font-size:150%;
+	color:#34844c;
+	width:105px;
+}
+.addButton_on{
+	cursor:pointer;
+	font-size:150%;
+	color:#333333;
+	width:105px;
+}
+.required{
+	color:#F00;
+	font-size:125%;
+	font-weight:bold;
+}
+
+.noteSuccess{
+	padding:10px;
+	margin:10px 0;
+	color:#060;
+	font-size:150%;
+	background-color:#EDFFEA;
+	border:1px dashed #060;
+	font-weight:bold;
+}
+
+.noteError{
+	padding:10px;
+	margin:10px 0;
+	color:#F00;
+	font-size:150%;
+	background-color:#FFF0F0;
+	border:1px dashed #F00;
+	font-weight:bold;
+}
+
+.noteWarning{
+	padding:10px;
+	margin:10px 0;
+	color:#F90;
+	font-size:150%;
+	background-color:#FFFEEC;
+	border:1px dashed #F90;
+	font-weight:bold;
+}
+
+.noteInfo{
+	padding:10px;
+	margin:10px 0;
+	color:#006;
+	font-size:150%;
+	background-color:#F2F8FF;
+	border:1px dashed #006;
+	font-weight:bold;
+}

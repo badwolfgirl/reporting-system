@@ -1,0 +1,2 @@
+[23-May-2015 16:35:20 America/New_York] PHP Fatal error:  Using $this when not in object context in /home/micheles/public_html/reporting/addons/common/mainJS.php on line 118
+[23-May-2015 16:38:26 America/New_York] PHP Fatal error:  Using $this when not in object context in /home/micheles/public_html/reporting/addons/common/mainJS.php on line 118
